@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<book xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0" xml:lang="cs">
+    <info>
+        <title>Dokumentace pro semestrální práci Průvodce památkami</title>
+        <author>
+            <personname><firstname>Olena</firstname><surname>Rudnyeva</surname></personname>
+            <address><city>Praha</city>            </address>
+            <email>touk01@vse.cz</email>
+        </author>
+    </info>
+    <preface>
+        <title>Úvod</title>
+        <para>V této dokumentaci jsou popsány všechny XML soubory vytvořené pro zpracování
+            semestrální práce ke kurzu 4IZ238. Předmětem bylo vytvoření XML dokumentu, schématu,
+            schematronu, transformací do PDF a HTML dokumentu a nakonec samotná dokumentace v
+            DOCBOOKU.</para>
+    </preface>
+    <chapter xml:id="xml">
+        <title>XML</title>
+        <para>V této části práce je popsána struktura XML dokumentace pro průvodce památek.</para>
+        <sect1>
+            <title>XML dokument</title>
+            <para>XML docoment это файл имеющий расширение .xml и построеный согласно подготовленной
+                схеме, хранящий данные для наших дальнейших преобразований и построений наших
+                документов. И построен по схеме где каждый пользователь может иметь на разных
+                ресурсах имеющих подключение к нашей базе ряд листов в которых может быть сколько
+                угодно групп, в которых может быть сколько угодно учасников и альбомов, а в альбомах
+                может быть сколькоугодно песен, при этом каждый обьект имеет обязательное описание
+                обьекта в структуре данных.</para>
+        </sect1>
+        <sect1>
+            <title>Struktura složitějších elementů </title>
+            <para>Složitějšími elementy je myšlen element mající v sobě dva a více různých
+                podelementů.</para>
+            <variablelist>
+                <varlistentry>
+                    <term>list</term>
+                    <listitem>
+                        <para>kořenový element, zastřešuje veškerý obsah dokumentu</para>
+                    </listitem>
+                </varlistentry>
+                <varlistentry>
+                    <term>band</term>
+                    <listitem>
+                        <para>zastřešuje jednotlivé údaje o bands</para>
+                    </listitem>
+                </varlistentry>
+                <varlistentry>
+                    <term>discography</term>
+                    <listitem>
+                        <para>obsahuje elementy <emphasis role="bold">album</emphasis> a <emphasis
+                                role="bold">songs</emphasis></para>
+                    </listitem>
+                </varlistentry>
+                <varlistentry>
+                    <term>structure</term>
+                    <listitem>
+                        <para>je podelementem <emphasis role="bold">artist</emphasis> a obsahuje
+                            informace.</para>
+                    </listitem>
+                </varlistentry>
+            </variablelist>
+        </sect1>
+    </chapter>
+    <chapter xml:id="xml_schema">
+        <title xreflabel="Kapitola XML Schéma">Shema XML</title>
+        <para>В моем проекте это документ по имени index.xsd предназначеный для шаблонизации и
+            стандартизации дальнейших xml документов для работы в команде и выполняющий функцию
+            лекала в качестве значений рассмотрим на премере участка кода "Artist" в качестве страны
+            мы можем выбрать один из готовых вариантов как и "singingVoice" где зарание указаны виды
+            голосов.</para>
+        <sect1>
+            <title>W3C XML Schema</title>
+            <para>В моем проекте это документ по имени index.xsd предназначеный для шаблонизации и
+                стандартизации дальнейших xml документов для работы в команде и выполняющий функцию
+                лекала в качестве значений рассмотрим на премере участка кода "Artist" в качестве
+                страны мы можем выбрать один из готовых вариантов как и "singingVoice" где зарание
+                указаны виды голосов. Níže můžeme vidět ukázku kódu z W3C XML Schema, kde omezujeme
+                element <emphasis role="bold">singingVoice</emphasis>.Pro element byl vytvořen
+                vlastní typ (viz první část kódu), který je dále omezován </para>
+            <programlisting>&lt;xsd:element name="PamátkaTyp">
+        &lt;xsd:simpleType>
+            &lt;xsd:restriction base="xsd:string">
+                &lt;xsd:enumeration value="Tenor"/>
+                &lt;xsd:enumeration value="Mezzo-soprano"/>
+                &lt;xsd:enumeration value="Contralto"/>
+                &lt;xsd:enumeration value="Soprano"/>
+                &lt;xsd:enumeration value="Baritone"/>
+                &lt;xsd:enumeration value="Bass"/>
+                &lt;xsd:enumeration value="Nan"/>
+            &lt;/xsd:restriction>
+        &lt;/xsd:simpleType>
+    &lt;/xsd:element></programlisting>
+        </sect1>
+    </chapter>
+    <chapter>
+        <title>XSLT transformace</title>
+        <para><indexterm>
+                <primary>Transformace XML</primary>
+            </indexterm> Transformace XML dokumentu prochází jako na obrázku.</para>
+        <mediaobject>
+            <imageobject>
+                <imagedata align="center" fileref="obrazky/schema.png" format="png" width="800px"/>
+            </imageobject>            
+        </mediaobject>
+        <sect1>
+            <title>Použité XSLT transformace</title>
+            <para>V zadání projektu bylo vytvořit XSLT transformace dvojího typu: <orderedlist>
+                    <listitem>
+                        <para>transformace do HTML</para>
+                    </listitem>
+                    <listitem>
+                        <para>transformace do PDF</para>
+                    </listitem>
+                </orderedlist></para>
+            <bridgehead>Příklad odlišnosti 1</bridgehead>
+            <para>Přestože jde o stejný princip, používáme odlišné elementy k dosažení
+                stejného/podobného výsledku. V obou případech generujeme obsah a další stránky s
+                informacemi o skupniny. (viz kód níže)</para>
+            <programlisting>  &lt;div class="container row " style="margin: 0 auto;">
+                    &lt;div class="row row-cols-1 row-cols-md-3 g-4">
+                        &lt;xsl:for-each select="list/band">
+                            &lt;xsl:variable name="path">
+                                &lt;xsl:value-of select="logo"/>
+                            &lt;/xsl:variable>
+                            &lt;div class="col">
+                                &lt;div class="card">
+
+                                    &lt;img src="./img/{$path}" class="card-img-top" alt="...">&lt;/img>
+                                    &lt;div class="card-body">
+                                        &lt;h5 class="card-title">
+                                            &lt;xsl:value-of select="title"/>
+                                        &lt;/h5>
+                                        &lt;h6 class="card-title">
+                                            &lt;xsl:value-of select="genres"/>
+                                        &lt;/h6>
+                                        &lt;p class="card-text">&lt;xsl:value-of select="briefSummary"/>&lt;/p>
+                                        &lt;xsl:variable name="bandView">
+                                            &lt;xsl:value-of select="title"/>
+                                        &lt;/xsl:variable>
+                                        &lt;a href="{$bandView}.html" class="btn btn-primary">View&lt;/a>
+                                    &lt;/div>
+                                &lt;/div>
+                            &lt;/div>
+                        &lt;/xsl:for-each>
+                    &lt;/div>
+                &lt;/div></programlisting>
+            <para><emphasis>generování v HTML</emphasis></para>
+            <programlisting> &lt;fo:layout-master-set>
+                &lt;fo:simple-page-master master-name="title" page-height="297mm" page-width="210mm" margin="1cm">
+                    &lt;fo:region-body/>
+                    &lt;fo:region-before extent="1.5cm"/>
+                &lt;/fo:simple-page-master>
+                &lt;fo:simple-page-master master-name="rest" page-height="297mm" page-width="210mm" margin="1cm">
+                    &lt;fo:region-body/>
+                    &lt;fo:region-before extent="1.5cm"/>
+                &lt;/fo:simple-page-master>
+                &lt;fo:simple-page-master master-name="A4-portrait" page-height="297mm" page-width="210mm" margin="1cm">
+                    &lt;fo:region-body/>
+                    &lt;fo:region-before extent="1.5cm"/>
+                &lt;/fo:simple-page-master>
+            &lt;/fo:layout-master-set>
+   ...</programlisting>
+            <para><emphasis>generování v FO- pro PDF</emphasis></para>
+        </sect1>
+    </chapter>
+    <index/>
+</book>

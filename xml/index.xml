@@ -1,0 +1,567 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="inde.xsl"?>
+
+
+<list xmlns="OlRu"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="OlRu index.xsd" >
+
+    <band >
+        <logo>LinkinPark.jpg</logo>
+        <title>Linkin Park</title>
+        <genres>Rock</genres>
+        <briefSummary>Linkin Park is an American rock band from Agoura Hills, California. 
+            The band's current lineup comprises vocalist/rhythm guitarist/keyboardist Mike Shinoda, 
+            lead guitarist Brad Delson, bassist Dave Farrell, DJ/turntablist Joe Hahn and drummer Rob Bourdon, 
+            all of whom are founding members. Vocalists Mark Wakefield and Chester Bennington are former members 
+            of the band. </briefSummary>
+        <country>USA</country>
+
+        <structure>
+            <artist>
+                <name> Chester Charles Bennington</name>
+                <country>USA</country>
+                <dateOfBirth>1976-03-20</dateOfBirth>
+                <placeOfBirth>USA</placeOfBirth>
+                <singingVoice>Tenor</singingVoice>
+                <instruments>guitar</instruments>
+            </artist>
+            <artist>
+                <name> Michael Kenji Shinoda</name>
+                <country>USA</country>
+                <dateOfBirth>1977-02-11</dateOfBirth>
+                <placeOfBirth>USA</placeOfBirth>
+                <singingVoice>Baritone</singingVoice>
+                <instruments>guitar</instruments>
+            </artist>
+            <artist>
+                <name> David Michael Farrell</name>
+                <country>USA</country>
+                <dateOfBirth>1977-02-08</dateOfBirth>
+                <placeOfBirth>USA</placeOfBirth>
+                <singingVoice>Nan</singingVoice>
+                <instruments>guitar</instruments>
+            </artist>
+            <artist>
+                <name> Bradford Phillip "Brad" Delson</name>
+                <country>USA</country>
+                <dateOfBirth>1977-12-01</dateOfBirth>
+                <placeOfBirth>USA</placeOfBirth>
+                <singingVoice>Nan</singingVoice>
+                <instruments>guitar</instruments>
+            </artist>
+            <artist>
+                <name> Joseph «Joe» Hahn</name>
+                <country>USA</country>
+                <dateOfBirth>1977-03-15</dateOfBirth>
+                <placeOfBirth>USA</placeOfBirth>
+                <singingVoice>Nan</singingVoice>
+                <instruments>Keyboard musical instruments</instruments>
+            </artist>
+        </structure>
+
+        <discography>
+            <album>
+                <albumName> Hybrid Theory </albumName>
+                <year>2000-01-01</year>
+                <label>Warner Brothers Records</label>
+                <songs>
+                    <song>'Papercut' </song>
+                    <song>'One Step Closer' </song>
+                    <song>'With You' </song>
+                    <song>'Points of Authority' </song>
+                    <song>'Crawling' </song>
+                    <song>'Runaway' </song>
+                    <song>'By Myself' </song>
+                    <song>'In the End' </song>
+                    <song>'A Place for My Head' </song>
+                    <song>'Forgotten' </song>
+                    <song>'Cure for the Itch' </song>
+                    <song>'Pushing Me Away' </song>
+                </songs>
+            </album>
+            <album>
+
+                <albumName>	Meteora </albumName>
+                <year>2003-02-02</year>
+                <label>Warner Brothers Records</label>
+                <songs>
+                    <song>'Foreword' </song>
+                    <song>'Don't Stay' </song>
+                    <song>'Somewhere I Belong' </song>
+                    <song>'Lying from You' </song>
+                    <song>'Hit the Floor' </song>
+                    <song>'Easier to Run' </song>
+                    <song>'Faint' </song>
+                    <song>'Figure.09' </song>
+                    <song>'Breaking the Habit' </song>
+                    <song>'From the Inside' </song>
+                    <song>'Nobody's Listening' </song>
+                    <song>'Session' </song>
+                    <song>'Numb' </song>
+                </songs>
+            </album>
+            <album>
+
+                <albumName>	Minutes to Midnight </albumName>
+                <year>2007-02-02</year>
+                <label>Warner Brothers Records/Machine Shop Recordings</label>
+                <songs>
+                    <song>'Wake' </song>
+                    <song>'Given Up' </song>
+                    <song>'Leave Out All the Rest' </song>
+                    <song>'Bleed It Out' </song>
+                    <song>'Shadow of the Day' </song>
+                    <song>'What I’ve Done' </song>
+                    <song>'Hands Held High' </song>
+                    <song>'No More Sorrow' </song>
+                    <song>'Valentine's Day' </song>
+                    <song>'In Between' </song>
+                    <song>'In Pieces' </song>
+                    <song>'The Little Things Give You Away' </song>
+                </songs>
+            </album>
+        </discography>
+    </band>
+    <band >
+        <logo>BP.jpg</logo>
+        <title>BLACKPINK</title>
+        <genres>K-pop</genres>
+        <briefSummary> Since their debut, Blackpink have 
+        emerged as a prominent act in K-pop and have been described as the 
+        "biggest girl group in the world", "biggest K-pop girl band on the planet",
+        and "K-pop Queens". They have gained immense popularity in South Korea, 
+        with Forbes Korea Power Celebrity named Blackpink the most powerful celebrities in 
+        South Korea in 2019, 
+        third in 2020, and second in 2021.
+        </briefSummary>
+        <country>KR</country>
+
+        <structure>
+            <artist>
+                <name> Kim Ji Soo</name>
+                <country>KR</country>
+                <dateOfBirth>1995-01-03</dateOfBirth>
+                <placeOfBirth>KR</placeOfBirth>
+                <singingVoice>Mezzo-soprano</singingVoice>
+                <instruments>-</instruments>
+            </artist>
+            <artist>
+                <name> Kim jennie</name>
+                <country>KR</country>
+                <dateOfBirth>1996-01-16</dateOfBirth>
+                <placeOfBirth>KR</placeOfBirth>
+                <singingVoice>Mezzo-soprano</singingVoice>
+                <instruments>-</instruments>
+            </artist>
+            <artist>
+                <name> Park Chae Young</name>
+                <country>KR</country>
+                <dateOfBirth>1997-02-11</dateOfBirth>
+                <placeOfBirth>KR</placeOfBirth>
+                <singingVoice>Soprano</singingVoice>
+                <instruments>-</instruments>
+            </artist>
+            <artist>
+                <name> Lisa Manoban</name>
+                <country>TH</country>
+                <dateOfBirth>1997-03-17</dateOfBirth>
+                <placeOfBirth>TH</placeOfBirth>
+                <singingVoice>Mezzo-soprano</singingVoice>
+                <instruments>-</instruments>
+            </artist>
+        </structure>
+        <discography>
+            <album>
+
+                <albumName> Square Up </albumName>
+                <year>2018-05-15</year>
+                <label>YG Entertainment</label>
+                <songs>
+                    <song>'Ddu-Du Ddu-Du' </song>
+                    <song>'Forever Young' </song>
+                    <song>'Really' </song>
+                    <song>'Bet You Wanna' </song>
+                    <song>'Lovesick Girls' </song>
+                    <song>'Bet You Wanna' </song>
+                    <song>'Lovesick Girls' </song>
+                    <song>'Bet You Wanna' </song>
+                    <song>'Lovesick Girls' </song>
+                    <song>'See U Later' </song>
+                </songs>
+            </album>
+            <album>
+
+                <albumName>	Kill This Love</albumName>
+                <year>2019-02-02</year>
+                <label>YG Entertainment</label>
+                <songs>
+                    <song>'Kill This Love' </song>
+                    <song>'Don't Know What to Do' </song>
+                    <song>'Kick It' </song>
+                    <song>'Bet You Wanna' </song>
+                    <song>'Lovesick Girls' </song>
+                    <song>'Bet You Wanna' </song>
+                    <song>'Lovesick Girls' </song>
+                    <song>'Bet You Wanna' </song>
+                    <song>'Lovesick Girls' </song>
+                    <song>'Hope Not' </song>
+                    <song>'Ddu-Du Ddu-Du' </song>
+                </songs>
+            </album>
+            <album>
+
+                <albumName>	The Album </albumName>
+                <year>2020-02-02</year>
+                <label>YG Entertainment</label>
+                <songs>
+                    <song>'How You Like That' </song>
+                    <song>'Ice Cream' </song>
+                    <song>'Pretty Savage' </song>
+                    <song>'Bet You Wanna' </song>
+                    <song>'Lovesick Girls' </song>
+                    <song>'Crazy Over You' </song>
+                    <song>'Love to Hate Me' </song>
+                    <song>'You Never Know' </song>
+                </songs>
+            </album>
+            <album>
+
+                <albumName>	The Alb </albumName>
+                <year>2020-02-02</year>
+                <label>YG Entertainment</label>
+                <songs>
+                    <song>'How You Like That' </song>
+                    <song>'Ice Cream' </song>
+                    <song>'Pretty Savage' </song>
+                    <song>'Bet You Wanna' </song>
+                    <song>'Lovesick Girls' </song>
+                    <song>'Bet You Wanna' </song>
+                    <song>'Lovesick Girls' </song>
+                    <song>'Crazy Over You' </song>
+                    <song>'Love to Hate Me' </song>
+                    <song>'You Never Know' </song>
+                </songs>
+            </album>
+
+        </discography>
+
+    </band>
+    <band>
+        <logo>KINO.jpg</logo>
+        <title>Kino</title>
+        <genres>Rock</genres>
+
+        <briefSummary>One of the most popular Soviet rock bands of the 1980s, 
+            it was part of the Leningrad Rock Club. 
+            The leader and author of almost all lyrics and music has invariably remained Viktor Tsoi, 
+            after whose death the collective, 
+            which released more than a hundred songs on studio albums in nine years, 
+            several collections and live recordings, as well as a large number of unofficial bootlegs.
+        </briefSummary>
+        <country>USSR</country>
+        <structure>
+
+            <artist>
+                <name> Victor Tsoj</name>
+                <country>USSR</country>
+                <dateOfBirth>1990-08-15</dateOfBirth>
+                <placeOfBirth>USSR</placeOfBirth>
+                <singingVoice>Mezzo-soprano</singingVoice>
+                <instruments>guitar</instruments>
+            </artist>
+            <artist>
+                <name>Yuri Kasparyan</name>
+                <country>USSR</country>
+                <dateOfBirth>1963-06-24</dateOfBirth>
+                <placeOfBirth>USSR</placeOfBirth>
+                <singingVoice>Mezzo-soprano</singingVoice>
+                <instruments>guitar</instruments>
+            </artist>
+            <artist>
+                <name>Georgy Guryanov</name>
+                <country>USSR</country>
+                <dateOfBirth>1961-02-27</dateOfBirth>
+                <placeOfBirth>USSR</placeOfBirth>
+                <singingVoice>Soprano</singingVoice>
+                <instruments>drum, bass guitar, piano</instruments>
+            </artist>
+            <artist>
+                <name>Igor Rumivovich</name>
+                <country>USSR</country>
+                <dateOfBirth>1961-04-17</dateOfBirth>
+                <placeOfBirth>USSR</placeOfBirth>
+                <singingVoice>Mezzo-soprano</singingVoice>
+                <instruments>bass guitar</instruments>
+            </artist>
+        </structure>
+        <discography>
+            <album>
+
+                <albumName> Gruppa Krovi </albumName>
+                <year>1988-04-17</year>
+                <label>NaN</label>
+                <songs>
+                    <song>'In our eyes' </song>
+                    <song>'Try to sing along' </song>
+                    <song>'In our eyes' </song>
+                    <song>'Try to sing along' </song>
+                    <song>'In our eyes' </song>
+                    <song>'Try to sing along' </song>
+                    <song>'Hey you' </song>
+                    <song>'It's our turn' </song>
+                    <song>'The legend' </song>
+                </songs>
+            </album>
+            <album>
+
+                <albumName>Zvezda po imeni Solntse</albumName>
+                <year>2019-02-02</year>
+                <label>YG Entertainment</label>
+                <songs>
+                    <song>'Song without chords' </song>
+                    <song>'Star named sun' </song>
+                    <song>'Non-fun song' </song>
+                    <song>'Fairytale' </song>
+                    <song>'Non-fun song' </song>
+                    <song>'Fairytale' </song>
+                    <song>'Place for step up' </song>
+                    <song>'A pack of sigarettes' </song>
+                    <song>'April' </song>
+                </songs>
+            </album>
+            <album>
+
+                <albumName>Zvezda po imeni Solntse</albumName>
+                <year>2019-02-02</year>
+                <label>YG Entertainment</label>
+                <songs>
+                    <song>'Song without chords' </song>
+                    <song>'Star named sun' </song>
+                    <song>'Non-fun song' </song>
+                    <song>'Fairytale' </song>
+                    <song>'Non-fun song' </song>
+                    <song>'Non-fun song' </song>
+                    <song>'Fairytale' </song>
+                    <song>'Fairytale' </song>
+                    <song>'Place for step up' </song>
+                    <song>'A pack of sigarettes' </song>
+                    <song>'April' </song>
+                </songs>
+            </album>
+            <album>
+
+                <albumName>Zvezda po imeni Solntse</albumName>
+                <year>2019-02-02</year>
+                <label>YG Entertainment</label>
+                <songs>
+                    <song>'Song without chords' </song>
+                    <song>'Star named sun' </song>
+                    <song>'Non-fun song' </song>
+                    <song>'Non-fun song' </song>
+                    <song>'Fairytale' </song>
+                    <song>'Non-fun song' </song>
+                    <song>'Fairytale' </song>
+                    <song>'Fairytale' </song>
+                    <song>'Place for step up' </song>
+                    <song>'A pack of sigarettes' </song>
+                    <song>'April' </song>
+                </songs>
+            </album>
+        </discography>
+    </band>
+    <band>
+        <logo>ZOO.jpg</logo>
+        <title>Zoopark</title>
+        <genres>Rock</genres>
+        <briefSummary> When Mike Naumenko was asked why the group was called "Zoo", 
+            he always joked and answered: "Why not?", "Is this a bad word?" but in fact there is 
+            a big and deep connotation behind this name.When Mike Naumenko was asked why the group was called "Zoo", he always joked and answered: 
+            "Why not?", "Is this a bad word?" 
+            but in fact there is a big and deep connotation behind this name.
+        </briefSummary>
+        <country>USSR</country>
+        <structure>
+            <artist>
+                <name>Mikchail "Mike" Naumenko</name>
+                <country>USSR</country>
+                <dateOfBirth>1955-04-18</dateOfBirth>
+                <placeOfBirth>USSR</placeOfBirth>
+                <singingVoice>Mezzo-soprano</singingVoice>
+                <instruments>guitar</instruments>
+            </artist>
+            <artist>
+                <name>Alexandr Kcharbunov</name>
+                <country>USSR</country>
+                <dateOfBirth>1959-09-13</dateOfBirth>
+                <placeOfBirth>USSR</placeOfBirth>
+                <singingVoice>Mezzo-soprano</singingVoice>
+                <instruments>guitar</instruments>
+            </artist>
+            <artist>
+                <name>Ilyja Kulikov</name>
+                <country>USSR</country>
+                <dateOfBirth>1959-04-26</dateOfBirth>
+                <placeOfBirth>USSR</placeOfBirth>
+                <singingVoice>Soprano</singingVoice>
+                <instruments>bass guitar</instruments>
+            </artist>
+            <artist>
+                <name>Alexandr Donskykch</name>
+                <country>USSR</country>
+                <dateOfBirth>1956-10-31</dateOfBirth>
+                <placeOfBirth>USSR</placeOfBirth>
+                <singingVoice>Mezzo-soprano</singingVoice>
+                <instruments>piano</instruments>
+            </artist>
+        </structure>
+        <discography>
+            <album>
+                <albumName> Country named N </albumName>
+                <year>1983-01-01</year>
+                <label>NaN</label>
+                <songs>
+                    <song>'Blues to Moscow' </song>
+                    <song>'Sweet N' </song>
+                    <song>'Forgive' </song>
+                    <song>'Come on, Boddisatva' </song>
+                    <song>'Rum and Cola' </song>
+                    <song>'Blues to Moscow' </song>
+                    <song>'Sweet N' </song>
+                    <song>'Forgive' </song>
+                    <song>'Come on, Boddisatva' </song>
+                    <song>'Rum and Cola' </song>
+                    
+                </songs>
+            </album>
+            <album>
+                <albumName> Country named N </albumName>
+                <year>1983-01-01</year>
+                <label>NaN</label>
+                <songs>
+                    <song>'Blues to Moscow' </song>
+                    <song>'Sweet N' </song>
+                    <song>'Forgive' </song>
+                    <song>'Come on, Boddisatva' </song>
+                    <song>'Rum and Cola' </song>
+                    <song>'Blues to Moscow' </song>
+                    <song>'Sweet N' </song>
+                    <song>'Forgive' </song>
+                    <song>'Come on, Boddisatva' </song>
+                    <song>'Rum and Cola' </song>
+                   
+                </songs>
+            </album>
+            <album>
+                <albumName> Country named N </albumName>
+                <year>1983-01-01</year>
+                <label>NaN</label>
+                <songs>
+                    <song>'Blues to Moscow' </song>
+                    <song>'Sweet N' </song>
+                    <song>'Forgive' </song>
+                    <song>'Come on, Boddisatva' </song>
+                    <song>'Rum and Cola' </song>
+                    <song>'Blues to Moscow' </song>
+                    <song>'Sweet N' </song>
+                    <song>'Forgive' </song>
+                    <song>'Come on, Boddisatva' </song>
+                    <song>'Rum and Cola' </song>
+                    <song>'Blues to Moscow' </song>
+                    
+                </songs>
+            </album>
+            <album>
+                <albumName> Country named N </albumName>
+                <year>1983-01-01</year>
+                <label>NaN</label>
+                <songs>
+                    <song>'Blues to Moscow' </song>
+                    <song>'Sweet N' </song>
+                    <song>'Forgive' </song>
+                    <song>'Come on, Boddisatva' </song>
+                    <song>'Rum and Cola' </song>
+                    <song>'Blues to Moscow' </song>
+                    <song>'Sweet N' </song>
+                    <song>'Forgive' </song>
+                    <song>'Come on, Boddisatva' </song>
+                    <song>'Rum and Cola' </song>
+                    
+                </songs>
+            </album>
+        </discography>
+    </band>
+    <band>
+        <logo>Marilyn.jpg</logo>
+        <title>Marilyn Manson</title>
+        <genres>Rock</genres>
+        <briefSummary> American rock band formed by namesake lead singer 
+            Marilyn Manson and guitarist Daisy Berkowitz in Fort Lauderdale. 
+            Originally named "Marilyn Manson the Spooky Kids", they gained a local cult following in 
+            South Florida in the early 1990s with their theatrical live performances. 
+            In 1993, they were the first act signed to Trent Reznor's Nothing Records label. 
+        </briefSummary>
+        <country>USA</country>
+        <structure>
+            <artist>
+                <name>Marilyn Manson</name>
+                <country>USSR</country>
+                <dateOfBirth>1969-01-05</dateOfBirth>
+                <placeOfBirth>USSR</placeOfBirth>
+                <singingVoice>Mezzo-soprano</singingVoice>
+                <instruments>guitar, keyboards</instruments>
+            </artist>
+            <artist>
+                <name>Paul Wiley</name>
+                <country>USSR</country>
+                <dateOfBirth>1973-04-04</dateOfBirth>
+                <placeOfBirth>USA</placeOfBirth>
+                <singingVoice>Mezzo-soprano</singingVoice>
+                <instruments>guitar</instruments>
+            </artist>
+            <artist>
+                <name>Juan Alderete</name>
+                <country>USA</country>
+                <dateOfBirth>1963-05-09</dateOfBirth>
+                <placeOfBirth>USA</placeOfBirth>
+                <singingVoice>Soprano</singingVoice>
+                <instruments>bass guitar</instruments>
+            </artist>
+            <artist>
+                <name>Brandon Pertzborn</name>
+                <country>USA</country>
+                <dateOfBirth>1989-10-17</dateOfBirth>
+                <placeOfBirth>USA</placeOfBirth>
+                <singingVoice>Mezzo-soprano</singingVoice>
+                <instruments>drums</instruments>
+            </artist>
+        </structure>
+
+        <discography>
+            <album>
+                <albumName> Antichrist superstar </albumName>
+                <year>1996-01-01</year>
+                <label>Nothing</label>
+                <songs>
+                    <song>'The beautiful people' </song>
+                    <song>'Tourniquet' </song>
+                    <song>'Little Horn' </song>
+                    <song>'Deformography' </song>
+                    <song>'Wormboy' </song>
+                </songs>
+            </album>
+            <album>
+                <albumName>Portrait of an American Family</albumName>
+                <year>1994-01-01</year>
+                <label>MORE</label>
+                <songs>
+                    <song>'Prelude' </song>
+                    <song>'Cake and Sodomy' </song>
+                    <song>'Lunchbox' </song>
+                    <song>'Organ grinder' </song>
+                    <song>'Cyclops' </song>
+                </songs>
+            </album>
+        </discography>
+    </band>
+</list>
